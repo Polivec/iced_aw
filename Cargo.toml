@@ -74,9 +74,9 @@ rev = "751ea77c29f6eb3d00f45f0a04c833a1d03a425c"
 #version = "0.1.1"
 
 #[dependencies.iced_renderer]
-git = "https://github.com/iced-rs/iced.git"
-rev = "751ea77c29f6eb3d00f45f0a04c833a1d03a425c"
-features = ["wgpu"]
+#git = "https://github.com/iced-rs/iced.git"
+#rev = "751ea77c29f6eb3d00f45f0a04c833a1d03a425c"
+#features = ["wgpu"]
 #version = "0.1.1"
 
 [profile.dev.package."*"]
