@@ -6,7 +6,7 @@ use iced_widget::core::{
     mouse::{self, Cursor},
     renderer, touch,
     widget::Tree,
-    Alignment, Clipboard, Color, Element, Event, Layout, Overlay, Point, Rectangle, Shell, Size,
+    Alignment, Clipboard, Color, Element, Event, Layout, Overlay, Point, Rectangle, Shell, Size, Vector,
 };
 
 use crate::style::modal::StyleSheet;
