@@ -70,7 +70,7 @@ where
     Renderer: 'a + core::Renderer,
     Renderer::Theme: StyleSheet,
 {
-    fn layout(&self, renderer: &Renderer, bounds: Size, position: Point) -> Node {
+    fn layout(&self, renderer: &Renderer, bounds: Size, position: Point, _translation: Vector) -> Node {
         let limits = Limits::new(Size::ZERO, bounds);
         let max_size = limits.max();
 
