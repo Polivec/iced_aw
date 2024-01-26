@@ -68,7 +68,7 @@ where
     Renderer: core::Renderer,
     Renderer::Theme: StyleSheet,
 {
-    fn layout(&mut self, renderer: &Renderer, bounds: Size, _position: Point) -> layout::Node {
+    fn layout(&mut self, renderer: &Renderer, bounds: Size, _position: Point, _translation: Vector,) -> layout::Node {
         let limits = layout::Limits::new(Size::ZERO, bounds);
         let mut content = self
             .content
