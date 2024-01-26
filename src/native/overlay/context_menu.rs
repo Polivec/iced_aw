@@ -12,7 +12,7 @@ use iced_widget::core::{
     mouse::{self, Cursor},
     overlay, renderer, touch,
     widget::tree::Tree,
-    window, Clipboard, Color, Element, Event, Layout, Point, Rectangle, Shell, Size,
+    window, Clipboard, Color, Element, Event, Layout, Point, Rectangle, Shell, Size, Vector,
 };
 
 /// The overlay of the [`ContextMenu`](crate::native::ContextMenu).
